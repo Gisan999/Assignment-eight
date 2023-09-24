@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/NCKdjW0/Health.png",
+        "title": "Fitness Tracker",
+        "category": "Health",
+        "color": "blue",
+        "description": "Achieve your fitness goals with our advanced fitness tracker. Monitor your activity, sleep, and more.",
+        "price": "$69.99"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/HPqttD4/Education.png",
+        "title": "Online Coding Course",
+        "category": "Education",
+        "color": "red",
+        "description": "Learn to code with our comprehensive online course. Master programming languages and build projects.",
+        "price": "$99.99"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/gZ2VhHL/Clothing.png",
+        "title": "Elegant Evening Gown",
+        "category": "Clothing",
+        "color": "green",
+        "description": "Turn heads at any event with this elegant evening gown. Flowing fabric and intricate design.",
+        "price": "$249.99"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/7Rcxxdk/Food.png",
+        "title": "Gourmet Chocolate Truffles",
+        "category": "Food",
+        "color": "orange",
+        "description": "Indulge in the rich and creamy goodness of our gourmet chocolate truffles. Perfect for dessert lovers.",
+        "price": "$19.99"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/7Rcxxdk/Food.png",
+        "title": "Gourmet Chocolate Truffles",
+        "category": "Food",
+        "color": "orange",
+        "description": "Indulge in the rich and creamy goodness of our gourmet chocolate truffles. Perfect for dessert lovers.",
+        "price": "$19.99"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/gZ2VhHL/Clothing.png",
+        "title": "Elegant Evening Gown",
+        "category": "Clothing",
+        "color": "green",
+        "description": "Turn heads at any event with this elegant evening gown. Flowing fabric and intricate design.",
+        "price": "$249.99"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/HPqttD4/Education.png",
+        "title": "Online Coding Course",
+        "category": "Education",
+        "color": "red",
+        "description": "Learn to code with our comprehensive online course. Master programming languages and build projects.",
+        "price": "$99.99"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/NCKdjW0/Health.png",
+        "title": "Fitness Tracker",
+        "category": "Health",
+        "color": "blue",
+        "description": "Achieve your fitness goals with our advanced fitness tracker. Monitor your activity, sleep, and more.",
+        "price": "$69.99"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/NCKdjW0/Health.png",
+        "title": "Fitness Tracker",
+        "category": "Health",
+        "color": "blue",
+        "description": "Achieve your fitness goals with our advanced fitness tracker. Monitor your activity, sleep, and more.",
+        "price": "$69.99"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/HPqttD4/Education.png",
+        "title": "Online Coding Course",
+        "category": "Education",
+        "color": "red",
+        "description": "Learn to code with our comprehensive online course. Master programming languages and build projects.",
+        "price": "$99.99"
+    },
+    {
+        "id": 11,
+        "picture": "hthttps://i.ibb.co/gZ2VhHL/Clothing.png",
+        "title": "Elegant Evening Gown",
+        "category": "Clothing",
+        "color": "green",
+        "description": "Turn heads at any event with this elegant evening gown. Flowing fabric and intricate design.",
+        "price": "$249.99"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/7Rcxxdk/Food.png",
+        "title": "Gourmet Chocolate Truffles",
+        "category": "Food",
+        "color": "orange",
+        "description": "Indulge in the rich and creamy goodness of our gourmet chocolate truffles. Perfect for dessert lovers.",
+        "price": "$19.99"
+    }
+ 
+]
