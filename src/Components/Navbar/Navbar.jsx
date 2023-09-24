@@ -4,14 +4,14 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div className="shadow-lg">
-            <nav className="container mx-auto">
+            <nav className="container mx-auto pl-16 md:pl-0">
 
-                <div className="flex justify-between">
+                <div className="flex flex-col md:flex-row justify-between md:px-5 lg:px-0">
 
                     <div>
                         <img className="py-3" src="https://i.ibb.co/njFWFLK/Logo.png" />
                     </div>
-                    <div className=" flex items-center">
+                    <div className=" flex items-center pl-6 md:pl-0 py-5 md:py-0">
                         <ul className="flex gap-5">
                             <li>
                                 <NavLink

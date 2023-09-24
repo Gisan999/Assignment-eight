@@ -13,7 +13,7 @@ const Home = () => {
             <div>
                 <Banner></Banner>
             </div>
-            <div>
+            <div className="my-16">
                 <Category Category={categories}></Category>
             </div>
         </div>
