@@ -3,6 +3,7 @@ import MainLayout from "../../MainLayout/MainLayout";
 import Home from "../Home/Home";
 import Donation from "../Donation/Donation";
 import Statistics from "../Statistics/Statistics";
+import CardDetails from "../CardDetails/CardDetails";
 
 
 const myCreatedRoute = createBrowserRouter([
@@ -22,6 +23,11 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: "/statistics",
                 element: <Statistics></Statistics>
+            },
+            {
+                path: "/details/:id",
+                element: <CardDetails></CardDetails>,
+                loader: () => fetch('/fakeData.json')
             }
         ]
     }

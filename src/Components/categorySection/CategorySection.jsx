@@ -1,13 +1,17 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
+
 
 const CategorySection = ({ data }) => {
     console.log(data);
-    const { title, category, picture, color_bg, text_color, bg_color } = data;
+    const {id, title, category, picture, color_bg, text_color, bg_color } = data;
     // console.log(color)
     return (
         <div className="flex justify-center">
-            <div style={{ 'background': color_bg }} className={`relative flex flex-col rounded-xl w-72 `}>
+
+           <Link to={`/details/${id}`}>
+           <div style={{ 'background': color_bg }} className={`relative flex flex-col rounded-xl w-72 `}>
                 <div className="relative overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <img src={picture} />
                 </div>
@@ -26,6 +30,9 @@ const CategorySection = ({ data }) => {
 
                 </div>
             </div>
+           
+           </Link>
+
         </div>
     );
 };
