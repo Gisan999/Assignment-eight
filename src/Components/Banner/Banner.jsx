@@ -1,6 +1,15 @@
-
-
+import { useState } from "react";
 const Banner = () => {
+
+
+    const [value, setValue] = useState('');
+    const handleFieldBtn = e=> {
+        e.preventDefault();
+        setValue(e.target.name.value)
+        
+    }
+    console.log(value)
+   
     return (
         <div>
             <div className="relative grid  flex-col items-end justify-center overflow-hidden  bg-white bg-clip-border text-center text-gray-700">
@@ -11,18 +20,12 @@ const Banner = () => {
                     <h2 className="mb-6 pb-8 block font-sans text-5xl font-bold leading-[1.5] tracking-normal text-black antialiased">
                         I Grow By Helping People In Need
                     </h2>
-
-                  <div className="flex justify-center items-center">
-                  <input className="py-[6px] pl-2 pr-20 md:pr-36 bg-transparent border-2 border-gray-300 rounded-md" type="text" placeholder="Search here...." />
-                    <button
-                        className="middle relative right-10 none center rounded-r-lg bg-[#FF444A] py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                        data-ripple-light="true"
-                    >
-                        Button
-                    </button>
-                  </div>
-
-
+                    <div className="flex justify-center items-center">
+                        <form onSubmit={handleFieldBtn}>
+                            <input className="py-[6px] pl-2 pr-20 md:pr-48 bg-transparent border-2 border-gray-300 rounded-md" type="text" placeholder="Search here...." name="name" />
+                            <input className="bg-[#FF444A] text-white py-2 px-4 relative right-4 rounded-r-lg" type="submit" value="Search" />
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

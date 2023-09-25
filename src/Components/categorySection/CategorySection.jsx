@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 
 const CategorySection = ({ data }) => {
-    console.log(data);
     const {id, title, category, picture, color_bg, text_color, bg_color } = data;
     // console.log(color)
     return (
