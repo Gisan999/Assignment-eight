@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/yqPBjcH/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "color_bg": "rgba(0, 82, 255, 0.15)",
+        "bg_color": "rgba(0, 82, 259, 0.20)",
+        "text_color": "#0052FF",
+        "description": "Physical Health: At its core, physical health is about the body's ability to function optimally. It involves maintaining a healthy weight, staying active, and eating a balanced diet. Regular exercise not only keeps our muscles and organs in good shape but also boosts our immune system and releases endorphins, promoting overall well-being. Proper nutrition provides the essential nutrients our bodies need to thrive and repair themselves. A healthy lifestyle, including sufficient sleep and stress management, is vital for physical health.",
+        "price": "$69.99"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/6txgPtL/Rectangle-4287-1.png",
+        "title": "Good education",
+        "category": "Education",
+        "color_bg": "rgba(255, 68, 74, 0.15)",
+        "bg_color": "rgba(255, 68, 79, 0.20)",
+        "text_color": "#FF444A",
+        "description": "At its core, education is about more than just memorizing facts and figures; it is about nurturing critical thinking, fostering creativity, and promoting personal development. It equips us with the tools to analyze information, solve problems, and make informed decisions. Education instills a sense of curiosity, encouraging us to ask questions and seek answers, ultimately leading to innovation and progress.",
+
+        
+        "price": "$99.99"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/XCJ8PnJ/Rectangle-4287.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "color_bg": "rgba(121, 194, 63, 0.15)",
+        "bg_color": "rgba(121, 194, 69, 0.20)",
+        "text_color": "#79C23F",
+        "description": "Style and Identity: Clothing is a visual language that allows us to convey our personality, tastes, and identity to the world. Whether it's a sharp business suit, a casual t-shirt and jeans, or a vibrant traditional garment, what we wear sends a message about who we are and how we want to be perceived. Our clothing choices can empower us, boost our confidence, and make a statement about our individuality.",
+        "price": "$249.99"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/YZZycR5/Rectangle-4287-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "color_bg": "rgba(248, 113, 71, 0.15)",
+        "bg_color": "rgba(248, 113, 79, 0.20)",
+        "text_color": "#F87147",
+        "description": "Food is also a gateway to cultural exploration. It reflects the traditions, history, and identity of communities worldwide. Each cuisine tells a unique story, drawing upon local ingredients, culinary techniques, and family recipes passed down through generations. Exploring diverse cuisines allows us to travel through taste, experiencing the richness of different cultures without leaving our tables.",
+        "price": "$19.99"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/YZZycR5/Rectangle-4287-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "color_bg": "rgba(248, 113, 71, 0.15)",
+        "bg_color": "rgba(248, 113, 79, 0.20)",
+        "text_color": "#F87147",
+        "description": "Food is also a gateway to cultural exploration. It reflects the traditions, history, and identity of communities worldwide. Each cuisine tells a unique story, drawing upon local ingredients, culinary techniques, and family recipes passed down through generations. Exploring diverse cuisines allows us to travel through taste, experiencing the richness of different cultures without leaving our tables.",
+        "price": "$19.99"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/XCJ8PnJ/Rectangle-4287.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "color_bg": "rgba(121, 194, 63, 0.15)",
+        "bg_color": "rgba(121, 194, 69, 0.20)",
+        "text_color": "#79C23F",
+        "description": "Style and Identity: Clothing is a visual language that allows us to convey our personality, tastes, and identity to the world. Whether it's a sharp business suit, a casual t-shirt and jeans, or a vibrant traditional garment, what we wear sends a message about who we are and how we want to be perceived. Our clothing choices can empower us, boost our confidence, and make a statement about our individuality.",
+        "price": "$249.99"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/6txgPtL/Rectangle-4287-1.png",
+        "title": "Good education",
+        "category": "Education",
+        "color_bg": "rgba(255, 68, 74, 0.15)",
+        "bg_color": "rgba(255, 68, 79, 0.20)",
+        "text_color": "#FF444A",
+        "description": "At its core, education is about more than just memorizing facts and figures; it is about nurturing critical thinking, fostering creativity, and promoting personal development. It equips us with the tools to analyze information, solve problems, and make informed decisions. Education instills a sense of curiosity, encouraging us to ask questions and seek answers, ultimately leading to innovation and progress.",
+        "price": "$99.99"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/yqPBjcH/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "color_bg": "rgba(0, 82, 255, 0.15)",
+        "bg_color": "rgba(0, 82, 259, 0.20)",
+        "text_color": "#0052FF",
+        "description": "Physical Health: At its core, physical health is about the body's ability to function optimally. It involves maintaining a healthy weight, staying active, and eating a balanced diet. Regular exercise not only keeps our muscles and organs in good shape but also boosts our immune system and releases endorphins, promoting overall well-being. Proper nutrition provides the essential nutrients our bodies need to thrive and repair themselves. A healthy lifestyle, including sufficient sleep and stress management, is vital for physical health.",
+        "price": "$69.99"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/yqPBjcH/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "color_bg": "rgba(0, 82, 255, 0.15)",
+        "bg_color": "rgba(0, 82, 259, 0.20)",
+        "text_color": "#0052FF",
+        "description": "Physical Health: At its core, physical health is about the body's ability to function optimally. It involves maintaining a healthy weight, staying active, and eating a balanced diet. Regular exercise not only keeps our muscles and organs in good shape but also boosts our immune system and releases endorphins, promoting overall well-being. Proper nutrition provides the essential nutrients our bodies need to thrive and repair themselves. A healthy lifestyle, including sufficient sleep and stress management, is vital for physical health.",
+        "price": "$69.99"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/6txgPtL/Rectangle-4287-1.png",
+        "title": "Good education",
+        "category": "Education",
+        "color_bg": "rgba(255, 68, 74, 0.15)",
+        "bg_color": "rgba(255, 68, 79, 0.20)",
+        "text_color": "#FF444A",
+        "description": "At its core, education is about more than just memorizing facts and figures; it is about nurturing critical thinking, fostering creativity, and promoting personal development. It equips us with the tools to analyze information, solve problems, and make informed decisions. Education instills a sense of curiosity, encouraging us to ask questions and seek answers, ultimately leading to innovation and progress.",
+        "price": "$99.99"
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/XCJ8PnJ/Rectangle-4287.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "color_bg": "rgba(121, 194, 63, 0.15)",
+        "bg_color": "rgba(121, 194, 69, 0.20)",
+        "text_color": "#79C23F",
+        "description": "Style and Identity: Clothing is a visual language that allows us to convey our personality, tastes, and identity to the world. Whether it's a sharp business suit, a casual t-shirt and jeans, or a vibrant traditional garment, what we wear sends a message about who we are and how we want to be perceived. Our clothing choices can empower us, boost our confidence, and make a statement about our individuality.",
+        "price": "$249.99"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/YZZycR5/Rectangle-4287-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "color_bg": "rgba(248, 113, 71, 0.15)",
+        "bg_color": "rgba(248, 113, 79, 0.20)",
+        "text_color": "#F87147",
+        "description": "Food is also a gateway to cultural exploration. It reflects the traditions, history, and identity of communities worldwide. Each cuisine tells a unique story, drawing upon local ingredients, culinary techniques, and family recipes passed down through generations. Exploring diverse cuisines allows us to travel through taste, experiencing the richness of different cultures without leaving our tables.",
+        "price": "$19.99"
+    }
+ 
+]
