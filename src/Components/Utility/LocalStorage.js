@@ -5,7 +5,6 @@ const getStoredDonation = () => {
     }
     return [];
 }
-
 const donation = id => {
     const storedDonation = getStoredDonation();
     const exists = storedDonation.find(categoryId => categoryId === id);

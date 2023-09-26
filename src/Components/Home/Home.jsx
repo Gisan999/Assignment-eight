@@ -1,15 +1,12 @@
 import CategorySection from "../categorySection/categorySection";
 import { useEffect, useState } from "react";
-
 const Home = () => {
     const [Category, setCategory] = useState([]);
     const [filterCard, setFilterCard] = useState([]);
-
     const handleFieldBtn = e => {
         e.preventDefault();
-        handleClick(e.target.name.value) 
+        handleClick(e.target.name.value)
     }
-  
     const handleClick = id => {
         console.log(id);
         if (id === 'Education') {
@@ -29,7 +26,6 @@ const Home = () => {
             setFilterCard(cloth);
         }
     }
-
     useEffect(() => {
         fetch('/fakeData.json')
             .then(res => res.json())
@@ -37,14 +33,10 @@ const Home = () => {
                setFilterCard(data);
                 setCategory(data);
             })
-
-            
     }, [])
-
     return (
         <div>
             <div>
-                {/* <Banner></Banner> */}
                 <div className="relative grid  flex-col items-end justify-center overflow-hidden  bg-white bg-clip-border text-center text-gray-700">
                     <div className="absolute  inset-0 m-0 overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/GFYQ0gt/cover.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
                         <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-white/90 via-white/90 to-white/90"></div>
@@ -64,10 +56,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="my-16">
-                {/* <Category Category={categories}></Category> */}
-
                 <div className="max-w-screen-xl mx-auto mt-5">
-
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                         {
                             filterCard?.map(data => <CategorySection key={data.id} data={data}></CategorySection>)
@@ -78,5 +67,4 @@ const Home = () => {
         </div>
     );
 };
-
 export default Home;

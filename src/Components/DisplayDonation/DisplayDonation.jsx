@@ -2,7 +2,6 @@
 
 
 const DisplayDonation = ({ data }) => {
-    // console.log(data);
     const {title, price, category, picture, bg_color, text_color, color_bg} = data;
     return (
         <div>
@@ -26,8 +25,6 @@ const DisplayDonation = ({ data }) => {
                     <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
                       {price}
                     </p>
-                  
-
                     <button 
                 style={{ 'background': text_color }}
                 className="middle none center rounded-lg py-3 px-6 font-sans text-sm md:text-md font-bold uppercase text-white shadow-md  transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
