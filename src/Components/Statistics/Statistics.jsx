@@ -5,6 +5,7 @@ const Statistics = () => {
     let parseData = JSON.parse(data)
     console.log(parseData);
     const storedDataLength = parseData.length
+    console.log(storedDataLength);
     const donateData = [
         { name: "Group A", value: 12 },
         { name: "Group B", value: storedDataLength }
@@ -41,6 +42,7 @@ const Statistics = () => {
                     </div>
             </div>
         </div>
+
     );
 };
 
