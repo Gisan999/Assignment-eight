@@ -9,7 +9,7 @@ const Donation = () => {
     useEffect(() => {
         const storedCategoryIds = getStoredDonation();
         if (category.length > 0) {
-            const categoryDonate = category.filter(data => storedCategoryIds.includes(data.id));
+            const categoryDonate = category?.filter(data => storedCategoryIds?.includes(data.id));
             setDonateCategory(categoryDonate);
         }
     }, [category])
@@ -21,15 +21,14 @@ const Donation = () => {
                 }
             </div>
             <div className={donateCategory.length < 5 && 'hidden'}>
-                <div className={donationNum === donateCategory.length && 'hidden'}>
+                <div className={donationNum === donateCategory?.length && 'hidden'}>
 
                     <div className="flex justify-center py-8">
-                        <button onClick={() => setDonationNum(donateCategory.length)}
+                        <button onClick={() => setDonationNum(donateCategory?.length)}
                             className="middle text-white bg-green-700 none center rounded-lg py-2 px-5 font-medium transition-all" > See All </button>
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };

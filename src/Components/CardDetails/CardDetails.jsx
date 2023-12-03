@@ -26,14 +26,11 @@ const CardDetails = () => {
         <div className="max-w-screen-xl mx-auto mt-11">
             <div className=" flex justify-center relative rounded-xl">
                 <img src={picture} className="w-full h-full rounded-xl px-8 lg:px-0" />
-
             </div>
-
             <div className="px-8 lg:px-0">
                 <div className=" h-16 md:h-28 w-full bg-black rounded-b-xl relative bottom-16 md:bottom-28 mix-blend-overlay ">
                 </div>
             </div>
-
             <button onClick={handleLoadData}
                 style={{ 'background': text_color }}
                 className="relative bottom-[120px] md:bottom-48 left-12 md:left-28 lg:left-10  middle none center rounded-lg py-2 md:py-3 px-4 md:px-6 font-sans text-sm md:text-md font-bold uppercase text-white shadow-md  transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"

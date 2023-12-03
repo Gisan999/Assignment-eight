@@ -10,19 +10,19 @@ const Home = () => {
     const handleClick = id => {
         console.log(id);
         if (id === 'Education') {
-            const education = Category.filter(card => card.category === "Education");
+            const education = Category?.filter(card => card.category === "Education");
             setFilterCard(education);
         }
         else if( id === 'Health'){
-            const health = Category.filter(card => card.category === "Health");
+            const health = Category?.filter(card => card.category === "Health");
             setFilterCard(health)
         }
         else if( id === 'Food'){
-            const food = Category.filter(card => card.category === "Food");
+            const food = Category?.filter(card => card.category === "Food");
             setFilterCard(food)
         }
         else if(id === 'Clothing'){
-            const cloth = Category.filter(card => card.category === "Clothing");
+            const cloth = Category?.filter(card => card.category === "Clothing");
             setFilterCard(cloth);
         }
     }
@@ -43,7 +43,7 @@ const Home = () => {
                     </div>
                     <div className="relative p-6 py-20 md:py-40 lg:py-60 px-6 md:px-12">
                         <h2 className="mb-6 pb-8 block font-sans  text-3xl md:text-5xl font-bold leading-[1.5] tracking-normal text-black antialiased">
-                            I Grow By Helping People In Need
+                            I Grow Byy Helping People In Need
                         </h2>
                         <div className="flex justify-center items-center">
                             <form
